@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Times New Roman";
+}
+
+.main-header {
+    padding: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-header__title {
+    font-size: 3em;
+    font-family: "Snell Roundhand";
+}
+
+.main-main {
+    margin: 0 20px 20px;
+}
+
+.article-container {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    border-width: 1px 1px 1px 0;
+}
+
+.article {
+    flex: 0 0 25%;
+    padding: 0 10px 10px;
+    border: 1px solid black;
+    border-width: 1px 0px 1px 1px;
+}
+
+.article--large {
+    flex-basis: 50%;
+}
+
+.article-title {
+    font-weight: 400;
+    font-size: 2em;
+    padding: 1em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-style: italic;
+}
+
+.article-img {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.category-container {
+    border: 1px solid black;
+    border-width: 1px 0px 1px 1px;
+    flex: 0 0 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.category {
+    flex: 1 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.category-link{
+    text-decoration: none;
+    color: #666666;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.category-link:hover {
+    text-decoration: underline;
+}
+
+.category:nth-child(1) {
+    background-color: #ffeaa7;
+}
+
+.category:nth-child(2) {
+    background-color: #81ecec;
+}
+
+.category:nth-child(3) {
+    background-color: #55efc4;
+}
+
+.category:nth-child(4) {
+    background-color: #74b9ff;
+}
+
+.category:nth-child(5) {
+    background-color: #a29bfe;
+}
+
