@@ -15,6 +15,12 @@
 - How I solved it is not the "correct" answer. That's like saying there's a correct way to write a poem or a correct way to paint a portrait. This is as much art as it is science.
 - Good luck!
 
+## Gallery
+
+Model to follow
+
+![html-css-project](https://user-images.githubusercontent.com/93099135/192910328-eac0d661-131f-4866-964f-6139191432f4.png)
+
 ---
 
 ### [🔗Complete exercise guidelines](https://btholt.github.io/intro-to-web-dev-v2/project-html-css)
